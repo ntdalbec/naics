@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const workbook = xlsx.readFile(
     // Synchronously read the excel document
-    `${__dirname}/data/2017_NAICS_Descriptions.xlsx`
+    `${__dirname}/../data/2017_NAICS_Descriptions.xlsx`
 );
 
 const worksheet = workbook.Sheets[workbook.SheetNames[0]]; // Get the first sheet in the workbook
@@ -21,6 +21,6 @@ const codes = rows.reduce(
 
 // Create a JSON file of the processed data
 fs.writeFileSync(
-    `${__dirname}/data/2017_NAICS_Descriptions.json`,
+    `${__dirname}/../data/2017_NAICS_Descriptions.json`,
     JSON.stringify(codes)
 );
