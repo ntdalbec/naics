@@ -11,7 +11,7 @@
   "keywords": [
     "naics"
   ],
-  "author": "ntdalbec",
+  "author": "Nathan Dalbec <ntdalbec@gmail.com> (https://github.com/ntdalbec)",
   "license": "MIT",
   "devDependencies": {
     "jest": "^25.3.0",
