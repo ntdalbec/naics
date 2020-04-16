@@ -1,6 +1,6 @@
 {
   "name": "naics",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A library for dealing with NAICS industry codes",
   "main": "index.js",
   "scripts": {
