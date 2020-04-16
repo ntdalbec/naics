@@ -6,10 +6,12 @@ const workbook = xlsx.readFile(
     `${__dirname}/../data/2017_NAICS_Descriptions.xlsx`
 );
 
-const worksheet = workbook.Sheets[workbook.SheetNames[0]]; // Get the first sheet in the workbook
+// Get the first sheet in the workbook
+const worksheet = workbook.Sheets[workbook.SheetNames[0]];
 
-const rows = xlsx.utils.sheet_to_json(worksheet); // Transform the worksheet into an
+// Transform the worksheet into an
 // array of objects where each property key is the label of column
+const rows = xlsx.utils.sheet_to_json(worksheet); 
 
 // Transform the array to an object where Code is the key for a given entry
 const codes = rows.reduce(
