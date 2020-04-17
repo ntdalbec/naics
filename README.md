@@ -1,3 +1,5 @@
+![powered by electricity](https://forthebadge.com/images/featured/featured-powered-by-electricity.svg)
+
 # naics
 naics is a library for dealing with North American Industry Classification System codes.
 
@@ -10,9 +12,9 @@ npm install naics
 ```javascript
 const naics = require("naics");
 
-const code = naics.Industry.from("51121");
+const industry = naics.Industry.from("51121");
 
-console.log(code.title) // Software Publishers
+console.log(industry.title); // Software Publishers
 ```
 
 ## Contributing
