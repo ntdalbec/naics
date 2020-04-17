@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "node scripts/build",
-    "format": "prettier **.js --write"
+    "format": "prettier **.js --write",
+    "doc": "npx jsdoc ./index.js -d ./docs"
   },
   "keywords": [
     "naics"
@@ -17,5 +18,6 @@
     "jest": "^25.3.0",
     "prettier": "2.0.4",
     "xlsx": "^0.15.6"
-  }
+  },
+  "dependencies": {}
 }
