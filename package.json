@@ -1,13 +1,13 @@
 {
   "name": "naics",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "A library for dealing with NAICS industry codes",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "build": "node scripts/build",
     "format": "prettier **.js --write",
-    "doc": "npx jsdoc ./index.js -d ./docs"
+    "docs": "jsdoc2md -t README.hbs lib/*.js > README.md"
   },
   "keywords": [
     "naics"
@@ -17,7 +17,8 @@
   "devDependencies": {
     "jest": "^25.3.0",
     "prettier": "2.0.4",
-    "xlsx": "^0.15.6"
+    "xlsx": "^0.15.6",
+    "jsdoc-to-markdown": "^5.0.3"
   },
   "dependencies": {}
 }
