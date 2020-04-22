@@ -20,5 +20,13 @@
     "xlsx": "^0.15.6",
     "jsdoc-to-markdown": "^5.0.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntdalbec/naics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ntdalbec/naics/issues"
+  },
+  "homepage": "https://github.com/ntdalbec/naics#readme"
 }
